@@ -267,6 +267,45 @@ main {
     margin-bottom: 10px;
 }
 
+#Video {
+    padding: 100px 20px;
+}
+
+#Video ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 25px;
+}
+
+#Video figure {
+    background: linear-gradient(to right,  #ee0a0a,  #810303);
+    border-radius: 50px 10px 50px 10px;
+    border: 2px dashed  #f5f1f2;
+    padding: 15px;
+    transition: 0.3s;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 5px 15px rgb(239, 240, 240);
+}
+
+#Video figure:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px aliceblue;
+}
+#Video video {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    object-fit: contain;
+}    
+
+#Video figcaption {
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+
 
 
 
