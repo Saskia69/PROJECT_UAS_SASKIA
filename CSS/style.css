@@ -14,7 +14,6 @@ body {
     background-color: #ffcf70;
     color: #cbd5e1;
     line-height: 1.7;
-    backdrop-filter: blur(10px);
 }
 
 h1 {
