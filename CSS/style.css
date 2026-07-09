@@ -376,6 +376,38 @@ button:hover {
     transform: translateY(-2px);
 }
 
+footer {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #ffcf70;
+    border-top: 2px solid  #fabd43;;
+}
+
+footer p {
+    margin-bottom: 10px;
+    color: white;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+footer a i {
+    margin-right: 8px;
+}
+
+footer a:hover {
+    color: #ffffff;
+}
+
+#Home, #About, #Profile, #Galery, #Video, #BukuTamu {
+    animation: fadeUp 0.8s ease;
+}
+
 
 
 
