@@ -16,3 +16,17 @@ body {
     line-height: 1.7;
     backdrop-filter: blur(10px);
 }
+
+h1 {
+  font-family: "Henny Penny", system-ui;
+}
+
+h3{
+    color: white;
+}
+
+h2, h4 {
+    font-family: "Henny Penny", system-ui;
+    color: #ffffff;
+    line-height: 1.2;
+}
