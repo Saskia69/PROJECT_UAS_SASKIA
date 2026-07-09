@@ -352,6 +352,30 @@ main {
     color: #0a5367;
 }
 
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    background: rgba(103, 10, 10, 0.05);
+}
+
+button {
+    width: 100%;
+    border: none;
+    padding: 15px;
+    border-radius: 12px;
+    background: #be102a;
+    color: whitesmoke;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+   background:  #dc5365;
+    transform: translateY(-2px);
+}
+
 
 
 
