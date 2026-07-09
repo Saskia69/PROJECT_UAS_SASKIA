@@ -246,7 +246,27 @@ main {
     transform: scale(1.08);
 }
 
-
-    
+.caption1 {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background:#eec6c7;
+    color: #0f172a;
+    padding: 6px 15px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
 }
+
+.foto-card figcaption {
+    padding: 20px;
+}
+
+.foto-card h4 {
+    color: #e2bdaf;
+    margin-bottom: 10px;
+}
+
+
+
 
