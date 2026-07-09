@@ -34,7 +34,6 @@ section:not(#Home, #BukuTamu) {
     margin: 40px auto;
     padding: 60px 50px 70px;
     border-radius: 32px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.02);
     background: linear-gradient(to right,  #870303,  #d60909);
 }
 
@@ -194,7 +193,7 @@ main {
     height: 220px;
     object-fit: cover;
     border-radius: 40% 60% 60% 40% / 50% 40% 60% 50%;
-    border: 4px solid white;
+    border: 2px solid white;
     box-shadow: 0 10px 20px whitesmoke;
 }
 
