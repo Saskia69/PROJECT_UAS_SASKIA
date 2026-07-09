@@ -191,3 +191,24 @@ main {
     margin-bottom: 25px;
 }
 
+#Profile img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 40% 60% 60% 40% / 50% 40% 60% 50%;
+    border: 4px solid white;
+    box-shadow: 0 10px 20px whitesmoke;
+}
+
+#profile h3 {
+    color: #ffffff;
+    margin: 20px 0;
+}
+
+#Profile p {
+    text-align: justify;
+    text-indent: 2em;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
