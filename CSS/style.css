@@ -28,5 +28,62 @@ h3{
 h2, h4 {
     font-family: "Henny Penny", system-ui;
     color: #ffffff;
+}
+    
+section:not(#Home, #BukuTamu) {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 60px 50px 70px;
+    border-radius: 32px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.02);
+    background: linear-gradient(to right,  #870303,  #d60909);
+}
+
+section h2 {
+    color: #ffffff;
+    font-size: 2.2rem;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #870303;
+    border-bottom: 2px solid #f2b7b6;
+}
+
+header h1 {
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 0.95rem;
+    padding: 8px 18px;
+    border-radius: 50px;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #ffcf70;
+    color: #ffffff;
+}
     line-height: 1.2;
 }
