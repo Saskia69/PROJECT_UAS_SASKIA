@@ -161,3 +161,16 @@ main {
     border: 2px solid white;
     box-shadow: 0 10px 20px whitesmoke;
 }
+
+#About {
+    padding: 100px 20px;
+}
+
+#About p {
+    max-width: 1000px;
+    margin: auto auto 20px;
+    text-align: justify;
+    text-indent: 2em;
+    color: #ffffff;
+}
+
