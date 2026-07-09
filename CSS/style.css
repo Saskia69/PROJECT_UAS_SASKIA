@@ -84,6 +84,26 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #ffcf70;
     color: #ffffff;
-}
     line-height: 1.2;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+#Home {
+    background: linear-gradient(to right,  #ee0a0a,  #810303);
+    padding: 100px 20px;
+    border-radius: 15px;
+}
+
+.home-content {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
 }
