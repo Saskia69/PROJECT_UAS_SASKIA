@@ -82,7 +82,6 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: #ffcf70;
-    color: #ffffff;
     line-height: 1.2;
 }
 
@@ -199,7 +198,7 @@ main {
     box-shadow: 0 10px 20px whitesmoke;
 }
 
-#profile h3 {
+#Profile h3 {
     color: #ffffff;
     margin: 20px 0;
 }
@@ -323,7 +322,6 @@ main {
     padding: 25px;
     background: beige;
     border-radius: 25px;
-    backdrop-filter: blur(10px);
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
 }
 
@@ -397,10 +395,6 @@ footer a {
 
 footer a i {
     margin-right: 8px;
-}
-
-footer a:hover {
-    color: #ffffff;
 }
 
 #Home, #About, #Profile, #Galery, #Video, #BukuTamu {
