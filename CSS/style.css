@@ -107,3 +107,57 @@ main {
     justify-content: space-between;
     gap: 50px;
 }
+
+.home-text {
+    flex: 1;
+    text-align: left;
+    padding-left: 40px;
+}
+
+.home-text h2 {
+    font-size: 2.6rem;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    color: #ffcf70;
+}
+
+.home-text p {
+    max-width: 500px;
+    font-size: 1.15rem;
+    margin-bottom: 30px;
+}
+
+.home-text .btn {
+    display: inline-block;
+    padding: 14px 32px;
+    text-decoration: none;
+    background: #ffcf70;
+    color: white;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: 0.3s;
+    box-shadow: 0 0 12px #feeaea;
+}
+
+.home-text .btn:hover {
+    background: #f9d58c;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+.home-photo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.home-photo img {
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 0 10px 20px whitesmoke;
+}
